@@ -1,0 +1,2185 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?u5j0gl');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?u5j0gl#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?u5j0gl') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?u5j0gl') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?u5j0gl##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="aiqon-"], [class*=" aiqon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.aiqon-united-arab-emiratesaiqon .path1 {
+  &:before {
+    content: $aiqon-united-arab-emiratesaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emiratesaiqon .path2 {
+  &:before {
+    content: $aiqon-united-arab-emiratesaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-1aiqon .path1 {
+  &:before {
+    content: $aiqon-united-arab-emirates-1aiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-1aiqon .path2 {
+  &:before {
+    content: $aiqon-united-arab-emirates-1aiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-1aiqon .path3 {
+  &:before {
+    content: $aiqon-united-arab-emirates-1aiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-1aiqon .path4 {
+  &:before {
+    content: $aiqon-united-arab-emirates-1aiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-1aiqon .path5 {
+  &:before {
+    content: $aiqon-united-arab-emirates-1aiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-2aiqon .path1 {
+  &:before {
+    content: $aiqon-united-arab-emirates-2aiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-2aiqon .path2 {
+  &:before {
+    content: $aiqon-united-arab-emirates-2aiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-2aiqon .path3 {
+  &:before {
+    content: $aiqon-united-arab-emirates-2aiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-2aiqon .path4 {
+  &:before {
+    content: $aiqon-united-arab-emirates-2aiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-2aiqon .path5 {
+  &:before {
+    content: $aiqon-united-arab-emirates-2aiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-2aiqon .path6 {
+  &:before {
+    content: $aiqon-united-arab-emirates-2aiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-2aiqon .path7 {
+  &:before {
+    content: $aiqon-united-arab-emirates-2aiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-2aiqon .path8 {
+  &:before {
+    content: $aiqon-united-arab-emirates-2aiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path1 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path1;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path2 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path3 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path4 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path5 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path6 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path7 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path8 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path9 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path10 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path11 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path11;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path12 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path12;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path13 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path13;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-3aiqon .path14 {
+  &:before {
+    content: $aiqon-united-arab-emirates-3aiqon-path14;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-4aiqon .path1 {
+  &:before {
+    content: $aiqon-united-arab-emirates-4aiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-4aiqon .path2 {
+  &:before {
+    content: $aiqon-united-arab-emirates-4aiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-4aiqon .path3 {
+  &:before {
+    content: $aiqon-united-arab-emirates-4aiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path1 {
+  &:before {
+    content: $aiqon-desertaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-desertaiqon .path2 {
+  &:before {
+    content: $aiqon-desertaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path3 {
+  &:before {
+    content: $aiqon-desertaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path4 {
+  &:before {
+    content: $aiqon-desertaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path5 {
+  &:before {
+    content: $aiqon-desertaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path6 {
+  &:before {
+    content: $aiqon-desertaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path7 {
+  &:before {
+    content: $aiqon-desertaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path8 {
+  &:before {
+    content: $aiqon-desertaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path9 {
+  &:before {
+    content: $aiqon-desertaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path10 {
+  &:before {
+    content: $aiqon-desertaiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path11 {
+  &:before {
+    content: $aiqon-desertaiqon-path11;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path12 {
+  &:before {
+    content: $aiqon-desertaiqon-path12;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path13 {
+  &:before {
+    content: $aiqon-desertaiqon-path13;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path14 {
+  &:before {
+    content: $aiqon-desertaiqon-path14;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path15 {
+  &:before {
+    content: $aiqon-desertaiqon-path15;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path16 {
+  &:before {
+    content: $aiqon-desertaiqon-path16;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path17 {
+  &:before {
+    content: $aiqon-desertaiqon-path17;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path18 {
+  &:before {
+    content: $aiqon-desertaiqon-path18;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path19 {
+  &:before {
+    content: $aiqon-desertaiqon-path19;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path20 {
+  &:before {
+    content: $aiqon-desertaiqon-path20;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path21 {
+  &:before {
+    content: $aiqon-desertaiqon-path21;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path22 {
+  &:before {
+    content: $aiqon-desertaiqon-path22;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path23 {
+  &:before {
+    content: $aiqon-desertaiqon-path23;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path24 {
+  &:before {
+    content: $aiqon-desertaiqon-path24;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path25 {
+  &:before {
+    content: $aiqon-desertaiqon-path25;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-desertaiqon .path26 {
+  &:before {
+    content: $aiqon-desertaiqon-path26;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-teapotaiqon .path1 {
+  &:before {
+    content: $aiqon-teapotaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-teapotaiqon .path2 {
+  &:before {
+    content: $aiqon-teapotaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-teapotaiqon .path3 {
+  &:before {
+    content: $aiqon-teapotaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-teapotaiqon .path4 {
+  &:before {
+    content: $aiqon-teapotaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-teapotaiqon .path5 {
+  &:before {
+    content: $aiqon-teapotaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-islamaiqon .path1 {
+  &:before {
+    content: $aiqon-islamaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-islamaiqon .path2 {
+  &:before {
+    content: $aiqon-islamaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-islamaiqon .path3 {
+  &:before {
+    content: $aiqon-islamaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-islamaiqon .path4 {
+  &:before {
+    content: $aiqon-islamaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-islamaiqon .path5 {
+  &:before {
+    content: $aiqon-islamaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-islamaiqon .path6 {
+  &:before {
+    content: $aiqon-islamaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-islamaiqon .path7 {
+  &:before {
+    content: $aiqon-islamaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-islamaiqon .path8 {
+  &:before {
+    content: $aiqon-islamaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-islamaiqon .path9 {
+  &:before {
+    content: $aiqon-islamaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-5aiqon .path1 {
+  &:before {
+    content: $aiqon-united-arab-emirates-5aiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-5aiqon .path2 {
+  &:before {
+    content: $aiqon-united-arab-emirates-5aiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-6aiqon .path1 {
+  &:before {
+    content: $aiqon-united-arab-emirates-6aiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-6aiqon .path2 {
+  &:before {
+    content: $aiqon-united-arab-emirates-6aiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-knifeaiqon .path1 {
+  &:before {
+    content: $aiqon-knifeaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-knifeaiqon .path2 {
+  &:before {
+    content: $aiqon-knifeaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-knifeaiqon .path3 {
+  &:before {
+    content: $aiqon-knifeaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-knifeaiqon .path4 {
+  &:before {
+    content: $aiqon-knifeaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-knifeaiqon .path5 {
+  &:before {
+    content: $aiqon-knifeaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-knifeaiqon .path6 {
+  &:before {
+    content: $aiqon-knifeaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-knifeaiqon .path7 {
+  &:before {
+    content: $aiqon-knifeaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path1 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path2 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path3 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path4 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path5 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path6 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path7 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path8 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path9 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path10 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path11 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path11;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path12 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path12;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path13 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path13;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-united-arab-emirates-7aiqon .path14 {
+  &:before {
+    content: $aiqon-united-arab-emirates-7aiqon-path14;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-carpetaiqon .path1 {
+  &:before {
+    content: $aiqon-carpetaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-carpetaiqon .path2 {
+  &:before {
+    content: $aiqon-carpetaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-carpetaiqon .path3 {
+  &:before {
+    content: $aiqon-carpetaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-carpetaiqon .path4 {
+  &:before {
+    content: $aiqon-carpetaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-carpetaiqon .path5 {
+  &:before {
+    content: $aiqon-carpetaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-carpetaiqon .path6 {
+  &:before {
+    content: $aiqon-carpetaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-carpetaiqon .path7 {
+  &:before {
+    content: $aiqon-carpetaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path1 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-perfumeaiqon .path2 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path3 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path4 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path5 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path6 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path7 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path8 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path9 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path10 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-perfumeaiqon .path11 {
+  &:before {
+    content: $aiqon-perfumeaiqon-path11;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-oil-pumpaiqon .path1 {
+  &:before {
+    content: $aiqon-oil-pumpaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-oil-pumpaiqon .path2 {
+  &:before {
+    content: $aiqon-oil-pumpaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-oil-pumpaiqon .path3 {
+  &:before {
+    content: $aiqon-oil-pumpaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-oil-pumpaiqon .path4 {
+  &:before {
+    content: $aiqon-oil-pumpaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-oil-pumpaiqon .path5 {
+  &:before {
+    content: $aiqon-oil-pumpaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-oil-pumpaiqon .path6 {
+  &:before {
+    content: $aiqon-oil-pumpaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-oil-pumpaiqon .path7 {
+  &:before {
+    content: $aiqon-oil-pumpaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-oil-pumpaiqon .path8 {
+  &:before {
+    content: $aiqon-oil-pumpaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-oil-pumpaiqon .path9 {
+  &:before {
+    content: $aiqon-oil-pumpaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path1 {
+  &:before {
+    content: $aiqon-monumentaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-monumentaiqon .path2 {
+  &:before {
+    content: $aiqon-monumentaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-monumentaiqon .path3 {
+  &:before {
+    content: $aiqon-monumentaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-monumentaiqon .path4 {
+  &:before {
+    content: $aiqon-monumentaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path5 {
+  &:before {
+    content: $aiqon-monumentaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path6 {
+  &:before {
+    content: $aiqon-monumentaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path7 {
+  &:before {
+    content: $aiqon-monumentaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path8 {
+  &:before {
+    content: $aiqon-monumentaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path9 {
+  &:before {
+    content: $aiqon-monumentaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path10 {
+  &:before {
+    content: $aiqon-monumentaiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path11 {
+  &:before {
+    content: $aiqon-monumentaiqon-path11;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path12 {
+  &:before {
+    content: $aiqon-monumentaiqon-path12;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path13 {
+  &:before {
+    content: $aiqon-monumentaiqon-path13;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-monumentaiqon .path14 {
+  &:before {
+    content: $aiqon-monumentaiqon-path14;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-quranaiqon .path1 {
+  &:before {
+    content: $aiqon-quranaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-quranaiqon .path2 {
+  &:before {
+    content: $aiqon-quranaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-quranaiqon .path3 {
+  &:before {
+    content: $aiqon-quranaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-quranaiqon .path4 {
+  &:before {
+    content: $aiqon-quranaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-quranaiqon .path5 {
+  &:before {
+    content: $aiqon-quranaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-quranaiqon .path6 {
+  &:before {
+    content: $aiqon-quranaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-quranaiqon .path7 {
+  &:before {
+    content: $aiqon-quranaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-quranaiqon .path8 {
+  &:before {
+    content: $aiqon-quranaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-quranaiqon .path9 {
+  &:before {
+    content: $aiqon-quranaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-quranaiqon .path10 {
+  &:before {
+    content: $aiqon-quranaiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-diamondaiqon .path1 {
+  &:before {
+    content: $aiqon-diamondaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-diamondaiqon .path2 {
+  &:before {
+    content: $aiqon-diamondaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-diamondaiqon .path3 {
+  &:before {
+    content: $aiqon-diamondaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-hookahaiqon .path1 {
+  &:before {
+    content: $aiqon-hookahaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-hookahaiqon .path2 {
+  &:before {
+    content: $aiqon-hookahaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-hookahaiqon .path3 {
+  &:before {
+    content: $aiqon-hookahaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-hookahaiqon .path4 {
+  &:before {
+    content: $aiqon-hookahaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-hookahaiqon .path5 {
+  &:before {
+    content: $aiqon-hookahaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-hookahaiqon .path6 {
+  &:before {
+    content: $aiqon-hookahaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-hookahaiqon .path7 {
+  &:before {
+    content: $aiqon-hookahaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-camelaiqon .path1 {
+  &:before {
+    content: $aiqon-camelaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-camelaiqon .path2 {
+  &:before {
+    content: $aiqon-camelaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-camelaiqon .path3 {
+  &:before {
+    content: $aiqon-camelaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-camelaiqon .path4 {
+  &:before {
+    content: $aiqon-camelaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-camelaiqon .path5 {
+  &:before {
+    content: $aiqon-camelaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-womanaiqon .path1 {
+  &:before {
+    content: $aiqon-arab-womanaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-arab-womanaiqon .path2 {
+  &:before {
+    content: $aiqon-arab-womanaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-womanaiqon .path3 {
+  &:before {
+    content: $aiqon-arab-womanaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-womanaiqon .path4 {
+  &:before {
+    content: $aiqon-arab-womanaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-womanaiqon .path5 {
+  &:before {
+    content: $aiqon-arab-womanaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-womanaiqon .path6 {
+  &:before {
+    content: $aiqon-arab-womanaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-manaiqon .path1 {
+  &:before {
+    content: $aiqon-arab-manaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-arab-manaiqon .path2 {
+  &:before {
+    content: $aiqon-arab-manaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-manaiqon .path3 {
+  &:before {
+    content: $aiqon-arab-manaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-manaiqon .path4 {
+  &:before {
+    content: $aiqon-arab-manaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-manaiqon .path5 {
+  &:before {
+    content: $aiqon-arab-manaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-manaiqon .path6 {
+  &:before {
+    content: $aiqon-arab-manaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-arab-manaiqon .path7 {
+  &:before {
+    content: $aiqon-arab-manaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-cityscapeaiqon .path1 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-cityscapeaiqon .path2 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-cityscapeaiqon .path3 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-cityscapeaiqon .path4 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-cityscapeaiqon .path5 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-cityscapeaiqon .path6 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-cityscapeaiqon .path7 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path8 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path9 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path10 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path11 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path11;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path12 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path12;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path13 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path13;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path14 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path14;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path15 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path15;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path16 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path16;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path17 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path17;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path18 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path18;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path19 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path19;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path20 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path20;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path21 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path21;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-cityscapeaiqon .path22 {
+  &:before {
+    content: $aiqon-cityscapeaiqon-path22;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-necklaceaiqon .path1 {
+  &:before {
+    content: $aiqon-necklaceaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-necklaceaiqon .path2 {
+  &:before {
+    content: $aiqon-necklaceaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-necklaceaiqon .path3 {
+  &:before {
+    content: $aiqon-necklaceaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-necklaceaiqon .path4 {
+  &:before {
+    content: $aiqon-necklaceaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-palm-islandsaiqon .path1 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-palm-islandsaiqon .path2 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-palm-islandsaiqon .path3 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-palm-islandsaiqon .path4 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-palm-islandsaiqon .path5 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-palm-islandsaiqon .path6 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-palm-islandsaiqon .path7 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-palm-islandsaiqon .path8 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-palm-islandsaiqon .path9 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-palm-islandsaiqon .path10 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-palm-islandsaiqon .path11 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path11;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-palm-islandsaiqon .path12 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path12;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-palm-islandsaiqon .path13 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path13;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-palm-islandsaiqon .path14 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path14;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-palm-islandsaiqon .path15 {
+  &:before {
+    content: $aiqon-palm-islandsaiqon-path15;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path1 {
+  &:before {
+    content: $aiqon-castleaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path2 {
+  &:before {
+    content: $aiqon-castleaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path3 {
+  &:before {
+    content: $aiqon-castleaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path4 {
+  &:before {
+    content: $aiqon-castleaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path5 {
+  &:before {
+    content: $aiqon-castleaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path6 {
+  &:before {
+    content: $aiqon-castleaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path7 {
+  &:before {
+    content: $aiqon-castleaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path8 {
+  &:before {
+    content: $aiqon-castleaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path9 {
+  &:before {
+    content: $aiqon-castleaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path10 {
+  &:before {
+    content: $aiqon-castleaiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path11 {
+  &:before {
+    content: $aiqon-castleaiqon-path11;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path12 {
+  &:before {
+    content: $aiqon-castleaiqon-path12;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path13 {
+  &:before {
+    content: $aiqon-castleaiqon-path13;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path14 {
+  &:before {
+    content: $aiqon-castleaiqon-path14;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path15 {
+  &:before {
+    content: $aiqon-castleaiqon-path15;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path16 {
+  &:before {
+    content: $aiqon-castleaiqon-path16;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path17 {
+  &:before {
+    content: $aiqon-castleaiqon-path17;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path18 {
+  &:before {
+    content: $aiqon-castleaiqon-path18;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path19 {
+  &:before {
+    content: $aiqon-castleaiqon-path19;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path20 {
+  &:before {
+    content: $aiqon-castleaiqon-path20;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-castleaiqon .path21 {
+  &:before {
+    content: $aiqon-castleaiqon-path21;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path22 {
+  &:before {
+    content: $aiqon-castleaiqon-path22;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path23 {
+  &:before {
+    content: $aiqon-castleaiqon-path23;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path24 {
+  &:before {
+    content: $aiqon-castleaiqon-path24;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-castleaiqon .path25 {
+  &:before {
+    content: $aiqon-castleaiqon-path25;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-burj-al-arabaiqon .path1 {
+  &:before {
+    content: $aiqon-burj-al-arabaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-burj-al-arabaiqon .path2 {
+  &:before {
+    content: $aiqon-burj-al-arabaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-burj-al-arabaiqon .path3 {
+  &:before {
+    content: $aiqon-burj-al-arabaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-burj-al-arabaiqon .path4 {
+  &:before {
+    content: $aiqon-burj-al-arabaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-burj-al-arabaiqon .path5 {
+  &:before {
+    content: $aiqon-burj-al-arabaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path1 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-mosqueaiqon .path2 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-mosqueaiqon .path3 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-mosqueaiqon .path4 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-mosqueaiqon .path5 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-mosqueaiqon .path6 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path7 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path7;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path8 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path8;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path9 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path9;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path10 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path10;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path11 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path11;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path12 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path12;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path13 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path13;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path14 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path14;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path15 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path15;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path16 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path16;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-mosqueaiqon .path17 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path17;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-mosqueaiqon .path18 {
+  &:before {
+    content: $aiqon-mosqueaiqon-path18;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-buildingaiqon .path1 {
+  &:before {
+    content: $aiqon-buildingaiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-buildingaiqon .path2 {
+  &:before {
+    content: $aiqon-buildingaiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-building-1aiqon .path1 {
+  &:before {
+    content: $aiqon-building-1aiqon-path1;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-building-1aiqon .path2 {
+  &:before {
+    content: $aiqon-building-1aiqon-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-building-1aiqon .path3 {
+  &:before {
+    content: $aiqon-building-1aiqon-path3;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-building-1aiqon .path4 {
+  &:before {
+    content: $aiqon-building-1aiqon-path4;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-building-1aiqon .path5 {
+  &:before {
+    content: $aiqon-building-1aiqon-path5;  
+    margin-left: -1em;  
+    color: rgb(255, 166, 77);
+  }
+}
+.aiqon-building-1aiqon .path6 {
+  &:before {
+    content: $aiqon-building-1aiqon-path6;  
+    margin-left: -1em;  
+    color: rgb(51, 51, 51);
+  }
+}
+.aiqon-woman-with-hijabaiqon {
+  &:before {
+    content: $aiqon-woman-with-hijabaiqon; 
+  }
+}
+.aiqon-tasbihaiqon {
+  &:before {
+    content: $aiqon-tasbihaiqon; 
+  }
+}
+.aiqon-scimitar-1aiqon {
+  &:before {
+    content: $aiqon-scimitar-1aiqon; 
+  }
+}
+.aiqon-scimitaraiqon {
+  &:before {
+    content: $aiqon-scimitaraiqon; 
+  }
+}
+.aiqon-pyramidsaiqon {
+  &:before {
+    content: $aiqon-pyramidsaiqon; 
+  }
+}
+.aiqon-palm-trees-1aiqon {
+  &:before {
+    content: $aiqon-palm-trees-1aiqon; 
+  }
+}
+.aiqon-palm-treesaiqon {
+  &:before {
+    content: $aiqon-palm-treesaiqon; 
+  }
+}
+.aiqon-oil-lampaiqon {
+  &:before {
+    content: $aiqon-oil-lampaiqon; 
+  }
+}
+.aiqon-muslim-woman-with-hijabaiqon {
+  &:before {
+    content: $aiqon-muslim-woman-with-hijabaiqon; 
+  }
+}
+.aiqon-muslim-woman-1aiqon {
+  &:before {
+    content: $aiqon-muslim-woman-1aiqon; 
+  }
+}
+.aiqon-muslim-womanaiqon {
+  &:before {
+    content: $aiqon-muslim-womanaiqon; 
+  }
+}
+.aiqon-muslim-praying-1aiqon {
+  &:before {
+    content: $aiqon-muslim-praying-1aiqon; 
+  }
+}
+.aiqon-muslim-prayingaiqon {
+  &:before {
+    content: $aiqon-muslim-prayingaiqon; 
+  }
+}
+.aiqon-muslim-manaiqon {
+  &:before {
+    content: $aiqon-muslim-manaiqon; 
+  }
+}
+.aiqon-mosque-moon-and-staraiqon {
+  &:before {
+    content: $aiqon-mosque-moon-and-staraiqon; 
+  }
+}
+.aiqon-mosque-and-moonaiqon {
+  &:before {
+    content: $aiqon-mosque-and-moonaiqon; 
+  }
+}
+.aiqon-mosque-8aiqon {
+  &:before {
+    content: $aiqon-mosque-8aiqon; 
+  }
+}
+.aiqon-mosque-7aiqon {
+  &:before {
+    content: $aiqon-mosque-7aiqon; 
+  }
+}
+.aiqon-mosque-6aiqon {
+  &:before {
+    content: $aiqon-mosque-6aiqon; 
+  }
+}
+.aiqon-mosque-5aiqon {
+  &:before {
+    content: $aiqon-mosque-5aiqon; 
+  }
+}
+.aiqon-mosque-4aiqon {
+  &:before {
+    content: $aiqon-mosque-4aiqon; 
+  }
+}
+.aiqon-mosque-3aiqon {
+  &:before {
+    content: $aiqon-mosque-3aiqon; 
+  }
+}
+.aiqon-mosque-2aiqon {
+  &:before {
+    content: $aiqon-mosque-2aiqon; 
+  }
+}
+.aiqon-mosque-1aiqon {
+  &:before {
+    content: $aiqon-mosque-1aiqon; 
+  }
+}
+.aiqon-mosque1aiqon {
+  &:before {
+    content: $aiqon-mosque1aiqon; 
+  }
+}
+.aiqon-minaretaiqon {
+  &:before {
+    content: $aiqon-minaretaiqon; 
+  }
+}
+.aiqon-lanternaiqon {
+  &:before {
+    content: $aiqon-lanternaiqon; 
+  }
+}
+.aiqon-koranaiqon {
+  &:before {
+    content: $aiqon-koranaiqon; 
+  }
+}
+.aiqon-kaabaaiqon {
+  &:before {
+    content: $aiqon-kaabaaiqon; 
+  }
+}
+.aiqon-islamic-prayer-1aiqon {
+  &:before {
+    content: $aiqon-islamic-prayer-1aiqon; 
+  }
+}
+.aiqon-islamic-prayeraiqon {
+  &:before {
+    content: $aiqon-islamic-prayeraiqon; 
+  }
+}
+.aiqon-islamic-moonaiqon {
+  &:before {
+    content: $aiqon-islamic-moonaiqon; 
+  }
+}
+.aiqon-islamic-art-4aiqon {
+  &:before {
+    content: $aiqon-islamic-art-4aiqon; 
+  }
+}
+.aiqon-islamic-art-3aiqon {
+  &:before {
+    content: $aiqon-islamic-art-3aiqon; 
+  }
+}
+.aiqon-islamic-art-2aiqon {
+  &:before {
+    content: $aiqon-islamic-art-2aiqon; 
+  }
+}
+.aiqon-islamic-art-1aiqon {
+  &:before {
+    content: $aiqon-islamic-art-1aiqon; 
+  }
+}
+.aiqon-islamic-artaiqon {
+  &:before {
+    content: $aiqon-islamic-artaiqon; 
+  }
+}
+.aiqon-hookah1aiqon {
+  &:before {
+    content: $aiqon-hookah1aiqon; 
+  }
+}
+.aiqon-half-moon-and-staraiqon {
+  &:before {
+    content: $aiqon-half-moon-and-staraiqon; 
+  }
+}
+.aiqon-dromedaryaiqon {
+  &:before {
+    content: $aiqon-dromedaryaiqon; 
+  }
+}
+.aiqon-cloud-and-moonaiqon {
+  &:before {
+    content: $aiqon-cloud-and-moonaiqon; 
+  }
+}
+.aiqon-burj-al-arab1aiqon {
+  &:before {
+    content: $aiqon-burj-al-arab1aiqon; 
+  }
+}
+.aiqon-belly-danceaiqon {
+  &:before {
+    content: $aiqon-belly-danceaiqon; 
+  }
+}
+.aiqon-baggy-trousersaiqon {
+  &:before {
+    content: $aiqon-baggy-trousersaiqon; 
+  }
+}
+.aiqon-arab-woman-with-hijabaiqon {
+  &:before {
+    content: $aiqon-arab-woman-with-hijabaiqon; 
+  }
+}
+.aiqon-arab-woman-1aiqon {
+  &:before {
+    content: $aiqon-arab-woman-1aiqon; 
+  }
+}
+.aiqon-arab-woman1aiqon {
+  &:before {
+    content: $aiqon-arab-woman1aiqon; 
+  }
+}
+.aiqon-arab-man-2aiqon {
+  &:before {
+    content: $aiqon-arab-man-2aiqon; 
+  }
+}
+.aiqon-arab-man-1aiqon {
+  &:before {
+    content: $aiqon-arab-man-1aiqon; 
+  }
+}
+.aiqon-arab-man1aiqon {
+  &:before {
+    content: $aiqon-arab-man1aiqon; 
+  }
+}
+.aiqon-arabic-lanternaiqon {
+  &:before {
+    content: $aiqon-arabic-lanternaiqon; 
+  }
+}
+.aiqon-arabic-jaraiqon {
+  &:before {
+    content: $aiqon-arabic-jaraiqon; 
+  }
+}
+.aiqon-arabian-womanaiqon {
+  &:before {
+    content: $aiqon-arabian-womanaiqon; 
+  }
+}
+.aiqon-arab-horseaiqon {
+  &:before {
+    content: $aiqon-arab-horseaiqon; 
+  }
+}
+.aiqon-araba-womanaiqon {
+  &:before {
+    content: $aiqon-araba-womanaiqon; 
+  }
+}
+
