@@ -1,8 +1,4 @@
-## Welcome to Aiqon
-
-You can use the [editor on GitHub](https://github.com/El-Hendawy/aiqon/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Welcome to Aiqon free css arab culture icons back for native rtl web design
 
 ### Markdown
 
