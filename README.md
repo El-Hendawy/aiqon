@@ -1,12 +1,9 @@
-## Welcome to Aiqon free css arab culture icons back for native rtl web design
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### Aiqon
+Aiqon free css arab culture icons back for native rtl web design
 ```markdown
-Syntax highlighted code block
-Copy those in your footer :
+
+Copy (ctrl+c) & paste (ctrl+v) in your footer :
+
 <link rel="stylesheet" href="demo-files/demo.css">
 <link rel="stylesheet" href="style.css">
 <!--[if lt IE 8]><!-->
@@ -15,27 +12,8 @@ Copy those in your footer :
 
 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/El-Hendawy/aiqon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#<span class="aiqon-scimitaraiqon"></span>
+##<span class="aiqon-pyramidsaiqon"></span>
+###<span class="aiqon-necklaceaiqon"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
