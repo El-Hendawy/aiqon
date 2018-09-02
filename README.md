@@ -6,6 +6,14 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 
 ```markdown
 Syntax highlighted code block
+Copy those in your footer :
+<link rel="stylesheet" href="demo-files/demo.css">
+<link rel="stylesheet" href="style.css">
+<!--[if lt IE 8]><!-->
+<link rel="stylesheet" href="ie7/ie7.css">
+<script src="demo-files/demo.js"></script>
+
+
 
 # Header 1
 ## Header 2
